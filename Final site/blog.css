@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('images/photo-1542435503-956c469947f6.jpg'); 
+  background-size: cover;
+  background-position: center;
+  }
+
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  nav img{
+    width: 150px;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: center;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color: #ff8800;
+    text-decoration: none;
+    font-size: 13px;
+  
+  }
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  
+  }
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+
+  
+  header {
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .blog-post {
+    margin-bottom: 2rem;
+    border: 1px solid #000000;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .blog-post h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-post p {
+    color: #555;
+  }
+  
+  .blog-post img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .blog-post a {
+    display: block;
+    margin-top: 1rem;
+    background-color: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .blog-post a:hover {
+    background-color: #ff0000;
+  }
+  
+  .comments {
+    margin-top: 2rem;
+  }
+  
+  .comments h3 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .comments ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comments li {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .comments li:last-child {
+    border-bottom: none;
+  }
+  
+  .comments p {
+    color: #555;
+  }
+  
+  #comment-form {
+    margin-top: 2rem;
+  }
+  
+  #comment-form h3 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  #comment-form label {
+    display: block;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  #comment-form input,
+  #comment-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  #comment-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #comment-form button:hover {
+    background-color: #0056b3;
+  }
+  

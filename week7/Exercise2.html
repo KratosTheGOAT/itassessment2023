@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Monique">
+    <title>Exercise-2</title>
+</head>
+<body>
+    <table style="border: 2px solid #333; padding: 20px; width: 400px; margin: 0 auto;">
+        <tr>
+            <td colspan="2" style="text-align: center;"><h2><b>HTML Form Test</b></h2></td>
+        </tr>
+        <tr>
+            <td><label for="Name">Name</label></td>
+            <td><input type="text" id="Name" name="name" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="Address">Address</label></td>
+            <td><input type="text" id="Address" name="address" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email</label></td>
+            <td><input type="email" id="Email" name="email" value=""></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td>
+                <input type="radio" id="Male" name="gender" value="male">Male
+                <input type="radio" id="Female" name="gender" value="female">Female
+            </td>
+        </tr>
+        <tr>
+            <td><label>Hobbies</label></td>
+            <td>
+                <input type="checkbox" id="Sports" name="hobbies" value="sports">Sports
+                <input type="checkbox" id="Movies" name="hobbies" value="movies">Movies
+                <input type="checkbox" id="Travelling" name="hobbies" value="travelling">Travelling
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Country">Country</label></td>
+            <td>
+                <select id="Countries" name="country">
+                    <option value="Nepal">Nepal</option>
+                    <option value="India">India</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="China">China</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="message">Message</label></td>
+            <td><textarea id="message" name="message" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

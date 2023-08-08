@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numericValue = 10;
+        var floatValue = 3.14;
+        var stringValue = "Hello, World!";
+        var booleanValue = true;
+
+        document.write("Numeric Value: " + numericValue + "<br>");
+        document.write("Float Value: " + floatValue + "<br>");
+        document.write("String Value: " + stringValue + "<br>");
+        document.write("Boolean Value: " + booleanValue + "<br>");
+    </script>
+    <br>
+    <br>
+
+
+    <script>
+        var name = prompt("Please enter your Name:");
+        var studentId = prompt("Please enter your Student ID:");
+
+        alert("Your Name: " + name + "\nStudent ID: " + studentId);
+    </script>
+    <br>
+    <br>
+
+
+    <script>
+        var marks = prompt("Enter your marks:");
+
+        // Convert the input to a number
+        marks = Number(marks);
+
+        if (marks >= 80 && marks <= 100) {
+            alert("Distinction");
+        } else if (marks >= 60 && marks < 80) {
+            alert("First Division");
+        } else if (marks >= 50 && marks < 60) {
+            alert("Second Division");
+        } else if (marks >= 40 && marks < 50) {
+            alert("Third Division");
+        } else if (marks < 40) {
+            alert("Fail");
+        } else {
+            alert("Invalid input. Please enter marks between 0 and 100.");
+        }
+    </script>
+    <br>
+    <br>
+
+
+    <script>
+        var dayNumber = prompt("Enter a number (1-7) to get the day of the week:");
+
+        dayNumber = Number(dayNumber);
+
+        switch (dayNumber) {
+            case 1:
+                alert("Sunday");
+                break;
+            case 2:
+                alert("Monday");
+                break;
+            case 3:
+                alert("Tuesday");
+                break;
+            case 4:
+                alert("Wednesday");
+                break;
+            case 5:
+                alert("Thursday");
+                break;
+            case 6:
+                alert("Friday");
+                break;
+            case 7:
+                alert("Saturday");
+                break;
+            default:
+                alert("Invalid input. Please enter a number between 1 and 7.");
+                break;
+        }
+    </script>
+    <br>
+    <br>
+
+
+    <script>
+        for (var i = 1; i <= 4; i++) {
+            var image = document.createElement("img");
+            image.src = i + ".jpg";
+            document.body.appendChild(image);
+        }
+    </script>
+    <br>
+    <br>
+
+
+    <script>
+        for (var i = 1; i <= 10; i++) {
+            var result = 5 * i;
+            document.write("5 * " + i + " = " + result + "<br>");
+        }
+    </script>
+    <br>
+    <br>
+
+</body>
+</html>
